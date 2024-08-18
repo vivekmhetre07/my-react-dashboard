@@ -1,0 +1,26 @@
+/* src/index.css */
+.dashboard {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.widget {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.add-widget input,
+.add-widget textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.add-widget button {
+  display: block;
+  margin-top: 10px;
+}

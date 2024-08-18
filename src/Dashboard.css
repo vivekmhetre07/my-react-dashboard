@@ -1,0 +1,96 @@
+ .dashboard {
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header .date-range {
+  margin-right: 20px;
+}
+
+.header .search-input {
+  margin-right: 20px;
+}
+
+.offcanvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+  z-index: 1050;
+  padding: 20px;
+}
+
+.offcanvas-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* height: 100%; */
+}
+
+.offcanvas .close-button {
+  align-self: flex-end;
+  margin-bottom: 20px;
+} 
+
+.offbtn{
+  width:45% ;
+}
+
+
+.content {
+  margin-top: 20px;
+}
+
+.date-range {
+  margin-bottom: 20px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.popup-content input,
+.popup-content textarea,
+.popup-content select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.popup-content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+} 
